@@ -1,0 +1,27 @@
+{
+  "name": "worker",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^1.2.5",
+    "@electric-sql/client": "^1.0.0-beta.5",
+    "@types/uuid": "^10.0.0",
+    "ai": "^4.1.61",
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.40.0",
+    "hono": "^4.7.4",
+    "pg": "^8.14.0",
+    "uuid": "^11.1.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250313.0",
+    "@types/pg": "^8.11.11",
+    "drizzle-kit": "^0.30.5",
+    "tsx": "^4.19.3",
+    "wrangler": "^4.0.0"
+  },
+  "packageManager": "pnpm@10.6.3"
+}
